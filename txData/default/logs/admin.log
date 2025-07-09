@@ -1,17 +1,7 @@
 ================================================================
-======== txAdmin v8.0.1 atop fxserver 16636 Starting - 7/8/2025, 8:39:05 PM
+======== txAdmin v8.0.1 atop fxserver 16636 Starting - 7/9/2025, 4:20:17 PM
 ================================================================
-[20:40:16][MrAliFurkan] created admins file
-[20:40:50][MrAliFurkan] Config changes: general.serverName
-[20:40:50][MrAliFurkan] Changing global settings via setup stepper and started Deployer.
-[20:42:35][MrAliFurkan] Setting recipe.
-[20:44:50][MrAliFurkan] Running recipe.
-[20:51:34][MrAliFurkan] Config changes: server.dataPath
-[20:51:34][MrAliFurkan] Completed and committed server deploy.
 ================================================================
-======== txAdmin v8.0.1 atop fxserver 16636 Starting - 7/8/2025, 9:07:50 PM
+======== Log Rotated - 7/9/2025, 4:20:18 PM                     
 ================================================================
-[21:09:14][MrAliFurkan] logged in from 127.0.0.1 via password
-[21:09:18][MrAliFurkan] [MrAliFurkan] executed "refresh"
-[21:09:25][MrAliFurkan] [MrAliFurkan] executed "start qbx_garages"
-[21:09:31][MrAliFurkan] [MrAliFurkan] executed "restart npwd_qbx_garages"
+[16:21:05][MrAliFurkan] logged in from 127.0.0.1 via password
