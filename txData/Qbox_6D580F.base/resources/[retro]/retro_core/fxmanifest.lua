@@ -13,7 +13,10 @@ client_script {
 
 server_script {
     '@oxmysql/lib/MySQL.lua',
-    'server/core.lua'
+    'server/core.lua',
+    "config.lua",
+    "server/init.lua",
+    "server/player.lua"
 }
 
 files {
