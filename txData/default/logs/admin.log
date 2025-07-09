@@ -28,3 +28,16 @@
 ================================================================
 [20:40:21][MrAliFurkan] logged in from 127.0.0.1 via password
 [20:43:28][MrAliFurkan] [MrAliFurkan] executed "stop retro_core"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 16636 Starting - 7/9/2025, 8:57:45 PM
+================================================================
+[20:58:10][MrAliFurkan] logged in from 127.0.0.1 via password
+[21:06:53][MrAliFurkan] [MrAliFurkan] executed "RESTART SERVER"
+[21:07:31][MrAliFurkan] Ensured resource "npwd"
+[21:07:32][MrAliFurkan] Ensured resource "npwd"
+[21:09:02][MrAliFurkan] Refreshed resources
+[21:09:08][MrAliFurkan] Refreshed resources
+[21:09:11][MrAliFurkan] Ensured resource "screenshot-basic"
+[21:09:12][MrAliFurkan] Ensured resource "npwd"
+[21:10:19][MrAliFurkan] Ensured resource "npwd"
+[21:14:30][MrAliFurkan] [MrAliFurkan] executed "RESTART SERVER"

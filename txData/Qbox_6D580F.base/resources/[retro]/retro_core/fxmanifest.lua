@@ -1,5 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
+lua54 'yes'
+
 
 author 'RetroV Dev Team'
 description 'Retro Core Framework - Lightweight Qbox Layer'

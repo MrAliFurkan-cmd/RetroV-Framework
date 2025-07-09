@@ -49686,7 +49686,7 @@ var config_default_default = {
     exportFunction: "generateNumber"
   },
   general: {
-    useResourceIntegration: false,
+    useResourceIntegration: true,
     toggleKey: "f1",
     toggleCommand: "phone",
     defaultLanguage: "en",
