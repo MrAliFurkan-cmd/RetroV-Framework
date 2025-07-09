@@ -1,0 +1,75 @@
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-07-08T17:51:58.331Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-07-08T17:51:58.333Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-07-08T17:51:58.333Z"}
+{"level":"info","message":"Loading QBX bridge....","timestamp":"2025-07-08T17:51:58.334Z"}
+{"level":"info","message":"QBX bridge initialized","timestamp":"2025-07-08T17:51:58.334Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-07-08T17:51:58.335Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-07-08T17:51:58.335Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-07-08T17:51:58.336Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-07-08T17:51:58.336Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-07-08T17:51:58.355Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-07-08T17:51:58.355Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-07-08T17:51:58.356Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-07-08T17:52:00.461Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-07-08T17:52:00.484Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"Qbox_6D580F\",\"players\"]) in 179.6098ms'","module":"DBInterface","timestamp":"2025-07-08T17:52:00.642Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 83.6706ms'","module":"DBInterface","timestamp":"2025-07-08T17:52:00.727Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-07-08T17:52:00.727Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (OD6D8555)","module":"player","timestamp":"2025-07-08T17:55:04.874Z"}
+{"level":"debug","message":{"_firstname":"Harun","_identifier":"OD6D8555","_lastname":"Akar","_phoneNumber":"6196799999","source":1,"username":"MrAliFurkan"},"module":"player","timestamp":"2025-07-08T17:55:04.874Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (OD6D8555)","module":"player","timestamp":"2025-07-08T17:55:04.886Z"}
+{"level":"debug","message":{"_firstname":"Harun","_identifier":"OD6D8555","_lastname":"Akar","_phoneNumber":"6196799999","source":1,"username":"MrAliFurkan"},"module":"player","timestamp":"2025-07-08T17:55:04.886Z"}
+{"level":"silly","message":"netPromise > npwd:fetchTweets > RequestObj","module":"events","timestamp":"2025-07-08T17:55:04.970Z"}
+{"level":"silly","message":{"data":{"pageId":0},"source":1},"module":"events","timestamp":"2025-07-08T17:55:04.970Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"OD6D8555\"]) in 3.494ms'","module":"DBInterface","timestamp":"2025-07-08T17:55:04.974Z"}
+{"level":"warn","message":"Aborted fetching tweets for user OD6D8555 because they do not have a profile.","module":"twitter","timestamp":"2025-07-08T17:55:04.974Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchTweets:d044d775-0591-4613-a82b-886222c1fa8c (4.9938ms), Data >>","module":"events","timestamp":"2025-07-08T17:55:04.975Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-07-08T17:55:04.975Z"}
+{"level":"silly","message":"netPromise > npwd:getOrCreateTwitterProfile > RequestObj","module":"events","timestamp":"2025-07-08T17:55:05.230Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-07-08T17:55:05.230Z"}
+{"level":"silly","message":"netPromise > phone:getMyProfile > RequestObj","module":"events","timestamp":"2025-07-08T17:55:05.234Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-07-08T17:55:05.238Z"}
+{"level":"silly","message":"netPromise > npwd:fetchMessageGroups > RequestObj","module":"events","timestamp":"2025-07-08T17:55:05.241Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-07-08T17:55:05.241Z"}
+{"level":"silly","message":"netPromise > npwd-contact-getAll > RequestObj","module":"events","timestamp":"2025-07-08T17:55:05.243Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-07-08T17:55:05.243Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"OD6D8555\"]) in 34.5227ms'","module":"DBInterface","timestamp":"2025-07-08T17:55:05.265Z"}
+{"level":"info","message":"Creating default Twitter profile Harun_Akar for OD6D8555","module":"twitter","timestamp":"2025-07-08T17:55:05.266Z"}
+{"level":"info","message":"Executed query (\n        SELECT *,\n               UNIX_TIMESTAMP(updatedAt) AS lastActive\n        FROM npwd_match_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"OD6D8555\"]) in 40.373ms'","module":"DBInterface","timestamp":"2025-07-08T17:55:05.279Z"}
+{"level":"info","message":"Creating default match profile Harun Akar for OD6D8555","module":"match","timestamp":"2025-07-08T17:55:05.280Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"OD6D8555\"]) in 5.5879ms'","module":"DBInterface","timestamp":"2025-07-08T17:55:05.283Z"}
+{"level":"silly","message":"Response Promise Event npwd:getOrCreateTwitterProfile:68584f05-e10b-47fb-bc8b-dd8ca93f2549 (54.0172ms), Data >>","module":"events","timestamp":"2025-07-08T17:55:05.283Z"}
+{"level":"silly","message":{"data":{"avatar_url":"https://i.fivemanage.com/images/3ClWwmpwkFhL.png","createdAt":"2025-07-08T17:55:05.000Z","id":1,"identifier":"OD6D8555","profile_name":"Harun_Akar","updatedAt":"2025-07-08T17:55:05.000Z"},"status":"ok"},"module":"events","timestamp":"2025-07-08T17:55:05.283Z"}
+{"level":"info","message":"Executed query (SELECT * FROM npwd_phone_contacts WHERE identifier = ? ORDER BY display ASC [\"OD6D8555\"]) in 44.222ms'","module":"DBInterface","timestamp":"2025-07-08T17:55:05.288Z"}
+{"level":"silly","message":"Response Promise Event npwd-contact-getAll:86e60c4f-b32f-4ac2-a25b-005d6c6b605a (45.1097ms), Data >>","module":"events","timestamp":"2025-07-08T17:55:05.288Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-07-08T17:55:05.289Z"}
+{"level":"info","message":"Executed query (SELECT npwd_messages_conversations.id,\n                          npwd_messages_conversations.conversation_list         as conversationList,\n                          npwd_messages_participants.unread_count               as unreadCount,\n                          npwd_messages_conversations.is_group_chat             as isGroupChat,\n                          npwd_messages_conversations.label,\n                          UNIX_TIMESTAMP(npwd_messages_conversations.updatedAt) as updatedAt,\n                          npwd_messages_participants.participant\n                   FROM npwd_messages_conversations\n                            INNER JOIN npwd_messages_participants\n                                       on npwd_messages_conversations.id = npwd_messages_participants.conversation_id\n                   WHERE npwd_messages_participants.participant = ? [\"6196799999\"]) in 49.2285ms'","module":"DBInterface","timestamp":"2025-07-08T17:55:05.291Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchMessageGroups:b35c241a-9077-48e8-a7e9-19d015016eb3 (50.0823ms), Data >>","module":"events","timestamp":"2025-07-08T17:55:05.291Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-07-08T17:55:05.291Z"}
+{"level":"info","message":"Executed query (\n        SELECT *,\n               UNIX_TIMESTAMP(updatedAt) AS lastActive\n        FROM npwd_match_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"OD6D8555\"]) in 3.0332ms'","module":"DBInterface","timestamp":"2025-07-08T17:55:05.293Z"}
+{"level":"silly","message":"Response Promise Event phone:getMyProfile:826367bd-9355-490d-acf8-582d989c076a (64.1956ms), Data >>","module":"events","timestamp":"2025-07-08T17:55:05.296Z"}
+{"level":"silly","message":{"data":{"bio":"","createdAt":"2025-07-08T17:55:05.000Z","id":1,"identifier":"OD6D8555","image":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg","job":"","lastActive":1751997305,"lastActiveFormatted":"Tue, 08 Jul 2025 17:55:05 GMT","location":"","name":"Harun Akar","tagList":[],"tags":"","updatedAt":"2025-07-08T17:55:05.000Z","viewed":false,"voiceMessage":null},"status":"ok"},"module":"events","timestamp":"2025-07-08T17:55:05.296Z"}
+{"level":"silly","message":"netPromise > npwd:FetchPhotos > RequestObj","module":"events","timestamp":"2025-07-08T17:57:35.342Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-07-08T17:57:35.342Z"}
+{"level":"info","message":"Executed query (SELECT id, image FROM npwd_phone_gallery WHERE identifier = ? ORDER BY id DESC [\"OD6D8555\"]) in 2.1505ms'","module":"DBInterface","timestamp":"2025-07-08T17:57:35.345Z"}
+{"level":"silly","message":"Response Promise Event npwd:FetchPhotos:78bca3f7-0cf8-4fde-840d-4b46ef41e3ea (3.0666ms), Data >>","module":"events","timestamp":"2025-07-08T17:57:35.345Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-07-08T17:57:35.345Z"}
+{"level":"silly","message":"netPromise > npwd:UploadPhoto > RequestObj","module":"events","timestamp":"2025-07-08T17:57:38.448Z"}
+{"level":"silly","message":{"source":1},"module":"events","timestamp":"2025-07-08T17:57:38.448Z"}
+{"level":"error","message":"Could not find upload token for photos!","module":"photo","timestamp":"2025-07-08T17:57:38.448Z"}
+{"level":"error","message":"For more information: https://projecterror.dev/docs/npwd/start/installation/#setting-up-camera-functionality","module":"photo","timestamp":"2025-07-08T17:57:38.449Z"}
+{"level":"silly","message":"Response Promise Event npwd:UploadPhoto:ca22da4f-7e5a-44b5-be91-7049ffe6cbf8 (2.3907ms), Data >>","module":"events","timestamp":"2025-07-08T17:57:38.450Z"}
+{"level":"silly","message":{"errorMsg":"No upload token found!","status":"error"},"module":"events","timestamp":"2025-07-08T17:57:38.450Z"}
+{"level":"silly","message":"netPromise > npwd:fetchAllListings > RequestObj","module":"events","timestamp":"2025-07-08T17:57:42.186Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-07-08T17:57:42.186Z"}
+{"level":"info","message":"Executed query (SELECT * FROM npwd_marketplace_listings WHERE reported = 0 ORDER BY id DESC []) in 2.1898ms'","module":"DBInterface","timestamp":"2025-07-08T17:57:42.189Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchAllListings:75d8e9ca-13ce-4e8e-8dac-867ad6dce092 (3.5361ms), Data >>","module":"events","timestamp":"2025-07-08T17:57:42.189Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-07-08T17:57:42.189Z"}
+{"level":"silly","message":"netPromise > npwd:fetchCalls > RequestObj","module":"events","timestamp":"2025-07-08T17:57:45.069Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-07-08T17:57:45.071Z"}
+{"level":"info","message":"Executed query (SELECT * FROM npwd_calls WHERE receiver = ? OR transmitter = ? ORDER BY id DESC LIMIT ? [\"6196799999\",\"6196799999\",\"50\"]) in 6.4648ms'","module":"DBInterface","timestamp":"2025-07-08T17:57:45.078Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchCalls:fb8c98c3-8946-4965-8b1d-a4f987a99a9c (12.013ms), Data >>","module":"events","timestamp":"2025-07-08T17:57:45.078Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-07-08T17:57:45.079Z"}
+{"level":"info","message":"Executed query (SELECT id FROM npwd_marketplace_listings WHERE identifier = ? [\"OD6D8555\"]) in 6.7456ms'","module":"DBInterface","timestamp":"2025-07-08T18:01:19.005Z"}
+{"level":"info","message":"Executed query (DELETE FROM npwd_marketplace_listings WHERE identifier = ? AND reported = 0 [\"OD6D8555\"]) in 0.8253ms'","module":"DBInterface","timestamp":"2025-07-08T18:01:19.006Z"}
+{"level":"info","message":"Unloaded NPWD Player, source: (1)","module":"player","timestamp":"2025-07-08T18:01:19.006Z"}

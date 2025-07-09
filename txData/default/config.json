@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "general": {
+    "serverName": "RetroV"
+  },
+  "server": {
+    "dataPath": "D:/MrAliFurkan Development/RetroV-Framework/txData/Qbox_6D580F.base/"
+  }
+}

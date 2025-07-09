@@ -1,0 +1,351 @@
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [24168] FXServer Starting - 7/8/2025, 8:51:34 PM       
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 102 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for qbx_core
+[     script:qbx_core] [qbx_core] [INFO] Stopping hardcap...
+[           resources] Stopping resource hardcap
+[           resources] Started resource qbx_core
+[    c-scripting-core] Creating script environments for ox_target
+[           resources] Started resource ox_target
+[    c-scripting-core] Creating script environments for ox_doorlock
+[           resources] Started resource ox_doorlock
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[    c-scripting-core] Creating script environments for ox_fuel
+[           resources] Started resource ox_fuel
+[    c-scripting-core] Creating script environments for qbx_adminmenu
+[           resources] Started resource qbx_adminmenu
+[    c-scripting-core] Creating script environments for qbx_medical
+[           resources] Started resource qbx_medical
+[    c-scripting-core] Creating script environments for qbx_ambulancejob
+[           resources] Started resource qbx_ambulancejob
+[    c-scripting-core] Creating script environments for qbx_bankrobbery
+[           resources] Started resource qbx_bankrobbery
+[    c-scripting-core] Creating script environments for qbx_binoculars
+[           resources] Started resource qbx_binoculars
+[    c-scripting-core] Creating script environments for qbx_busjob
+[           resources] Started resource qbx_busjob
+[    c-scripting-core] Creating script environments for qbx_carwash
+[           resources] Started resource qbx_carwash
+[           resources] Started resource qbx_chat_theme
+[    c-scripting-core] Creating script environments for qbx_cityhall
+[           resources] Started resource qbx_cityhall
+[    c-scripting-core] Creating script environments for qbx_customs
+[           resources] Started resource qbx_customs
+[           resources] Started resource qbx_density
+[    c-scripting-core] Creating script environments for qbx_divegear
+[           resources] Started resource qbx_divegear
+[    c-scripting-core] Creating script environments for qbx_diving
+[           resources] Started resource qbx_diving
+[    c-scripting-core] Creating script environments for qbx_drugs
+[           resources] Started resource qbx_drugs
+[    c-scripting-core] Creating script environments for qbx_fireworks
+[           resources] Started resource qbx_fireworks
+[    c-scripting-core] Creating script environments for qbx_garages
+[           resources] Started resource qbx_garages
+[    c-scripting-core] Creating script environments for qbx_garbagejob
+[           resources] Started resource qbx_garbagejob
+[    c-scripting-core] Creating script environments for qbx_houserobbery
+[           resources] Started resource qbx_houserobbery
+[    c-scripting-core] Creating script environments for qbx_hud
+[           resources] Started resource qbx_hud
+[           resources] Started resource MugShotBase64
+[    c-scripting-core] Creating script environments for qbx_idcard
+[           resources] Started resource qbx_idcard
+[    c-scripting-core] Creating script environments for qbx_jewelery
+[           resources] Started resource qbx_jewelery
+[    c-scripting-core] Creating script environments for qbx_lapraces
+[           resources] Started resource qbx_lapraces
+[    c-scripting-core] Creating script environments for qbx_management
+[           resources] Started resource qbx_management
+[    c-scripting-core] Creating script environments for qbx_mechanicjob
+[           resources] Started resource qbx_mechanicjob
+[    c-scripting-core] Creating script environments for qbx_newsjob
+[           resources] Started resource qbx_newsjob
+[    c-scripting-core] Creating script environments for qbx_pawnshop
+[           resources] Started resource qbx_pawnshop
+[    c-scripting-core] Creating script environments for qbx_police
+[           resources] Started resource qbx_police
+[    c-scripting-core] Creating script environments for qbx_properties
+[           resources] Started resource qbx_properties
+[    c-scripting-core] Creating script environments for qbx_radialmenu
+[           resources] Started resource qbx_radialmenu
+[    c-scripting-core] Creating script environments for qbx_recyclejob
+[           resources] Started resource qbx_recyclejob
+[    c-scripting-core] Creating script environments for qbx_scoreboard
+[           resources] Started resource qbx_scoreboard
+[    c-scripting-core] Creating script environments for qbx_scrapyard
+[           resources] Started resource qbx_scrapyard
+[    c-scripting-core] Creating script environments for qbx_seatbelt
+[           resources] Started resource qbx_seatbelt
+[    c-scripting-core] Creating script environments for qbx_smallresources
+[           resources] Started resource qbx_smallresources
+[    c-scripting-core] Creating script environments for qbx_spawn
+[           resources] Started resource qbx_spawn
+[    c-scripting-core] Creating script environments for qbx_storerobbery
+[           resources] Started resource qbx_storerobbery
+[    c-scripting-core] Creating script environments for qbx_streetraces
+[           resources] Started resource qbx_streetraces
+[    c-scripting-core] Creating script environments for qbx_taxijob
+[           resources] Started resource qbx_taxijob
+[    c-scripting-core] Creating script environments for qbx_towjob
+[           resources] Started resource qbx_towjob
+[    c-scripting-core] Creating script environments for qbx_truckerjob
+[           resources] Started resource qbx_truckerjob
+[    c-scripting-core] Creating script environments for qbx_truckrobbery
+[           resources] Started resource qbx_truckrobbery
+[    c-scripting-core] Creating script environments for qbx_vehiclekeys
+[           resources] Started resource qbx_vehiclekeys
+[    c-scripting-core] Creating script environments for qbx_vehicles
+[           resources] Started resource qbx_vehicles
+[    c-scripting-core] Creating script environments for qbx_vehiclesales
+[           resources] Started resource qbx_vehiclesales
+[    c-scripting-core] Creating script environments for qbx_vehicleshop
+[           resources] Started resource qbx_vehicleshop
+[    c-scripting-core] Creating script environments for qbx_vineyard
+[           resources] Started resource qbx_vineyard
+[    c-scripting-core] Creating script environments for qbx_weed
+[           resources] Started resource qbx_weed
+[    c-scripting-core] Creating script environments for Renewed-Banking
+[           resources] Started resource Renewed-Banking
+[    c-scripting-core] Creating script environments for Renewed-Weathersync
+[           resources] Started resource Renewed-Weathersync
+[           resources] Started resource bob74_ipl
+[    c-scripting-core] Creating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for informational
+[           resources] Started resource informational
+[    c-scripting-core] Creating script environments for loadscreen
+[           resources] Started resource loadscreen
+[    c-scripting-core] Creating script environments for mana_audio
+[           resources] Started resource mana_audio
+[           resources] Started resource mhacking
+[           resources] Started resource safecracker
+[    c-scripting-core] Creating script environments for screencapture
+[           resources] Started resource screencapture
+[    c-scripting-core] Creating script environments for screenshot-basic
+[           resources] Started resource screenshot-basic
+[    c-scripting-core] Creating script environments for scully_emotemenu
+[           resources] Started resource scully_emotemenu
+[    c-scripting-core] Creating script environments for ultra-voltlab
+[           resources] Started resource ultra-voltlab
+[    c-scripting-core] Creating script environments for vehiclehandler
+[           resources] Started resource vehiclehandler
+[    c-scripting-core] Creating script environments for xt-prison
+[           resources] Started resource xt-prison
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for mm_radio
+[           resources] Started resource mm_radio
+[   resources:pillbox] Warning: could not find file `v_int_40.ytyp` (defined in fxmanifest.lua:6)
+[           resources] Started resource pillbox (1 warning)
+[    c-scripting-core] Creating script environments for npwd_qbx_garages
+[           resources] Started resource npwd_qbx_garages
+[    c-scripting-core] Creating script environments for npwd_qbx_mail
+[           resources] Started resource npwd_qbx_mail
+[    c-scripting-core] Creating script environments for qbx_npwd
+[           resources] Started resource qbx_npwd
+[    c-scripting-core] Creating script environments for npwd
+[           resources] Started resource npwd
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[ citizen-server-impl] server thread hitch warning: timer interval of 1603 milliseconds
+[      script:oxmysql] [11.8.2-MariaDB] Database server connection established!
+[    script:xt-prison] [xt-prison] [INFO] Initializing Table: xt_prison_items
+[    script:xt-prison] [xt-prison] [INFO] Initializing Table: xt_prison
+[     script:qbx_core] [qbx_core] [INFO] Removed invalid groups from player_groups table
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://mralifurkan-akyze9.users.cfx.re/
+[     script:qbx_core] 
+[     script:qbx_core] Welcome to Qbox!
+[     script:qbx_core] To learn more, please check out the documentation at https://docs.qbox.re/.
+[     script:qbx_core] To turn this message off, set the qbx:acknowledge convar to true in your server.cfg file.
+[     script:qbx_core] 
+[ script:ox_inventory] [ox_inventory] [INFO] Inventory has loaded 301 items
+[script:scully_emotem] [scully_emotemenu] You are currently running the latest version.
+[ citizen-server-impl] network thread hitch warning: timer interval of 185 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 197 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 166 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 151 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 155 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 153 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 200 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 165 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 194 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 237 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 270 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 162 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 173 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 232 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 315 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 151 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 182 milliseconds
+[  script:qbx_medical] SCRIPT ERROR: @qbx_medical/server/main.lua:35: attempt to index a nil value (local 'player')
+[     script:qbx_core] [qbx_core] [INFO] MrAliFurkan has created a character
+[         script:chat] MrAliFurkan: noclip
+[         script:chat] MrAliFurkan: tx
+[         script:npwd] [NPWD] [photo] [error]: Could not find upload token for photos!
+[         script:npwd] [NPWD] [photo] [error]: For more information: https://projecterror.dev/docs/npwd/start/installation/#setting-up-camera-functionality
+[ script:ox_inventory] [ox_inventory] [INFO] Saving 1 inventories to the database
+[ script:ox_inventory] [ox_inventory] [INFO] Saved 1/1 players (21.6273 ms)
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [14360] FXServer Starting - 7/8/2025, 9:08:01 PM       
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 51 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for qbx_core
+[     script:qbx_core] [qbx_core] [INFO] Stopping hardcap...
+[           resources] Stopping resource hardcap
+[           resources] Started resource qbx_core
+[    c-scripting-core] Creating script environments for ox_target
+[           resources] Started resource ox_target
+[    c-scripting-core] Creating script environments for ox_doorlock
+[           resources] Started resource ox_doorlock
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[    c-scripting-core] Creating script environments for ox_fuel
+[           resources] Started resource ox_fuel
+[    c-scripting-core] Creating script environments for qbx_adminmenu
+[           resources] Started resource qbx_adminmenu
+[    c-scripting-core] Creating script environments for qbx_hud
+[           resources] Started resource qbx_hud
+[           resources] Started resource MugShotBase64
+[    c-scripting-core] Creating script environments for qbx_idcard
+[           resources] Started resource qbx_idcard
+[    c-scripting-core] Creating script environments for qbx_seatbelt
+[           resources] Started resource qbx_seatbelt
+[    c-scripting-core] Creating script environments for qbx_spawn
+[           resources] Started resource qbx_spawn
+[    c-scripting-core] Creating script environments for qbx_vehicles
+[           resources] Started resource qbx_vehicles
+[    c-scripting-core] Creating script environments for Renewed-Banking
+[           resources] Started resource Renewed-Banking
+[    c-scripting-core] Creating script environments for Renewed-Weathersync
+[           resources] Started resource Renewed-Weathersync
+[    c-scripting-core] Creating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for loadscreen
+[           resources] Started resource loadscreen
+[           resources] Started resource safecracker
+[    c-scripting-core] Creating script environments for scully_emotemenu
+[           resources] Started resource scully_emotemenu
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[   resources:pillbox] Warning: could not find file `v_int_40.ytyp` (defined in fxmanifest.lua:6)
+[           resources] Started resource pillbox (1 warning)
+[    c-scripting-core] Creating script environments for npwd_qbx_garages
+[script:npwd_qbx_gara] SCRIPT ERROR: @npwd_qbx_garages/server/server.lua:2: qbx_garages is not started
+[           resources] Started resource npwd_qbx_garages
+[    c-scripting-core] Creating script environments for npwd_qbx_mail
+[           resources] Started resource npwd_qbx_mail
+[    c-scripting-core] Creating script environments for qbx_npwd
+[           resources] Started resource qbx_npwd
+[    c-resources-core] Could not find dependency screenshot-basic for resource npwd.
+[ citizen-server-impl] Couldn't start resource npwd.
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.8.2-MariaDB] Database server connection established!
+[     script:qbx_core] [qbx_core] [INFO] Removed invalid groups from player_groups table
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://mralifurkan-akyze9.users.cfx.re/
+[     script:qbx_core] 
+[     script:qbx_core] Welcome to Qbox!
+[     script:qbx_core] To learn more, please check out the documentation at https://docs.qbox.re/.
+[     script:qbx_core] To turn this message off, set the qbx:acknowledge convar to true in your server.cfg file.
+[     script:qbx_core] 
+[ script:ox_inventory] [ox_inventory] [INFO] Inventory has loaded 301 items
+[script:scully_emotem] [scully_emotemenu] You are currently running the latest version.
+║         MrAliFurkan║ refresh
+[           resources] Scanning resources.
+[           resources] Found 1 new resources, and refreshed 0/51 resources.
+║         MrAliFurkan║ start qbx_garages
+[    c-scripting-core] Creating script environments for qbx_garages
+[           resources] Started resource qbx_garages
+[ citizen-server-impl] server thread hitch warning: timer interval of 395 milliseconds
+║         MrAliFurkan║ restart npwd_qbx_garages
+[           resources] Stopping resource npwd_qbx_garages
+[    c-scripting-core] Creating script environments for npwd_qbx_garages
+[           resources] Started resource npwd_qbx_garages
+[ citizen-server-impl] server thread hitch warning: timer interval of 164 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 200 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 232 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 156 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 230 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 351 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 381 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 304 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 250 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 234 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 165 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 125 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 153 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 200 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 181 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 167 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 182 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 156 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 193 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 109 milliseconds
+[     script:qbx_core] [qbx_core] [INFO] MrAliFurkan (Citizen ID: OD6D8555 ID: 1) has successfully loaded!
+[     script:qbx_npwd] SCRIPT ERROR: @qbx_npwd/server.lua:29: No such export newPlayer in resource npwd
+[     script:qbx_npwd] > rawQuery (@oxmysql/dist/build.js:26512)
+[     script:qbx_npwd] > processTicksAndRejections (node:internal/process/task_queues:96)
+[script:qbx_adminmenu] SCRIPT ERROR: @qbx_adminmenu/server/main.lua:300: No such export GiveKeys in resource qbx_vehiclekeys
+[script:qbx_adminmenu] 
+[ script:ox_inventory] [ox_inventory] [INFO] Saving 1 inventories to the database
+[ script:ox_inventory] [ox_inventory] [INFO] Saved 1/1 players (58.0988 ms)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 105 milliseconds
