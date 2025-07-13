@@ -5,5 +5,8 @@
   },
   "server": {
     "dataPath": "D:/MrAliFurkan Development/RetroV-Framework/txData/Qbox_6D580F.base/"
+  },
+  "gameFeatures": {
+    "playerModePtfx": false
   }
 }

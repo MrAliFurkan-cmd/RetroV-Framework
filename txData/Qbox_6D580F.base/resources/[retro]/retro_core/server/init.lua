@@ -1,11 +1,4 @@
 -- retro_core/server/init.lua
-
-local function giveStartingItems(source, citizenid)
-    for _, item in ipairs(Config.DefaultStartingItems) do
-        exports.ox_inventory:AddItem(source, item.name, item.amount)
-    end
-end
-
 RegisterNetEvent("retro_core:playerLoaded", function(playerId)
     local player = exports['qbx_core']:GetPlayer(playerId)
     if not player then return end
@@ -21,4 +14,5 @@ RegisterNetEvent("retro_core:playerLoaded", function(playerId)
     if Config.UseCustomCharacterSelector then
         TriggerEvent("retro_core:handleCharacterJoin", playerId, player)
     end
+    TriggerClientEvent('retro_spawn:checkPlayer', source)
 end)

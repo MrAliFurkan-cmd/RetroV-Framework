@@ -1,3 +1,7 @@
+local giveStartingItems = require 'server.functions.items'
+
+
+
 RegisterNetEvent("retro_core:handleCharacterJoin", function(source, Player)
     local citizenid = Player.PlayerData.citizenid
 
@@ -16,4 +20,7 @@ RegisterNetEvent("retro_core:handleCharacterJoin", function(source, Player)
 
     -- Başlangıç itemleri ver
     giveStartingItems(source, citizenid)
+
+    -- Oyuncuyu spawn et (en kritik satır!)
+    TriggerClientEvent('retro_spawn:checkPlayer', source)
 end)
